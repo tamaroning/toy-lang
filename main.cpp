@@ -6,4 +6,6 @@
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/raw_ostream.h"
 
+#include "toy/Lexer.h"
+
 int main() { std::cout << "Hello" << std::endl; }
