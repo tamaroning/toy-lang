@@ -7,5 +7,6 @@
 #include "llvm/Support/raw_ostream.h"
 
 #include "toy/Lexer.h"
+#include "toy/AST.h"
 
 int main() { std::cout << "Hello" << std::endl; }
