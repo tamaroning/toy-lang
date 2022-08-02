@@ -53,7 +53,7 @@ public:
   Token getNextToken() { return curTok = getTok(); }
 
   void consume(Token tok) {
-    assert(tok == curTok && "consume Toke Mismatch expectation");
+    assert(tok == curTok && "consume Token Mismatch expectation");
     getNextToken();
   }
 
